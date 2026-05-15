@@ -29,6 +29,7 @@
     .nav-links { display:flex; align-items:center; gap:40px; }
     .nav-hamburger { display:none; flex-direction:column; gap:5px; background:none; border:none; cursor:pointer; padding:8px; }
     .nav-hamburger span { display:block; width:24px; height:2px; background:#fff; }
+    .mob-call { display:none; }
     .mobile-menu { display:none; flex-direction:column; gap:20px; padding:24px 24px; background:#000; border-top:1px solid rgba(255,255,255,0.08); }
     .mobile-menu.open { display:flex; }
 
@@ -243,7 +244,7 @@
         <a href="tel:+447988038043" style="display:flex;flex-direction:column;align-items:flex-end;gap:1px;text-decoration:none;line-height:1;" onmouseover="this.querySelector('span').style.transform='scale(1.15)'" onmouseout="this.querySelector('span').style.transform='scale(1)'"><small style="font-size:8px;font-weight:700;letter-spacing:0.22em;text-transform:uppercase;color:rgba(255,255,255,0.35);">Call Us</small><span style="font-size:20px;font-weight:900;letter-spacing:-0.02em;color:#fff;transition:transform 0.2s;display:inline-block;transform-origin:right center;">+44 7988 038043</span></a>
       </div>
       <!-- Mobile-only call us -->
-      <a href="tel:+447988038043" class="mob-call" style="display:none;flex-direction:column;align-items:flex-end;gap:1px;text-decoration:none;line-height:1;">
+      <a href="tel:+447988038043" class="mob-call" style="flex-direction:column;align-items:flex-end;gap:1px;text-decoration:none;line-height:1;">
         <small style="font-size:7px;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;color:rgba(255,255,255,0.35);">Call Us</small>
         <span style="font-size:15px;font-weight:900;letter-spacing:-0.02em;color:#fff;">+44 7988 038043</span>
       </a>
